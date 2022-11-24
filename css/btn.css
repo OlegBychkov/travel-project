@@ -1,0 +1,59 @@
+.btn {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FEFEFE !important;
+
+    padding: 25px 44px;
+
+    background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%);
+    border-radius: 27px;
+}
+
+.btn:hover{
+    color: #caf69e88 !important;
+    transition: color 0.3s ease-in;
+}
+
+.btn:active{
+    position: relative;
+    top: 1px;
+}
+
+.btn--login{
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 100px;
+
+    padding: 13px 44px;
+}
+
+.btn--header{
+    font-size: 25px;
+    padding: 27px 48px;
+}
+
+.btn-subscribe{
+    padding: 34px 86px;
+    font-size: 25px;
+    border-radius: 35px;
+}
+
+@media (max-width: 850px) {
+    .header{
+        padding-top: 20px;
+        min-height: unset;
+    }
+    .header__top{
+        margin-bottom: 40px;
+    }
+    .btn--header{
+        padding: 20px 30px;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+    btn{
+        padding: 20px 30px;
+        border-radius: 20px;
+        font-size: 18px;
+    }
+}

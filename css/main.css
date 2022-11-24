@@ -1,0 +1,53 @@
+@import url(rest.css);
+@import url(header-footer.css);
+@import url(destination.css);
+@import url(customers.css);
+@import url(cta.css);
+@import url(subscribe.css);
+@import url(btn.css);
+@import url(nav__togle-burger.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+:root{
+    --container-width: 1270px;
+    --container-padding: 15px;
+    --orange: #FF7C4E;
+    --secondary: rgba(15, 31 ,28, 0.5)
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F5F5F5;
+    color: #0F1F1C;
+}
+
+.none{
+    display: none !important;
+}
+
+.container{
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 0 var(--container-padding);
+}
+
+
+.container-slider{
+    padding-left: calc((100% - var(--container-width))/2 + var(--container-padding));
+}
+
+
+/* @MEDIA */
+
+@media (max-width: 1269) {
+    .container-slider{
+        padding-left: 15px;
+    }
+}
+
+
+
+
+
+
