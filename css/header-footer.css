@@ -289,12 +289,15 @@
 }
 @media (max-width: 600px) {
     .nav--footer{
-        flex-direction: column-reverse;
+        flex-direction: column-reverse !important; 
         row-gap: 30px;
     }
 }
 @media (max-width: 460px) {
     .nav--mobile .nav__list{
+        gap: 0 20px;
+    }
+    nav__list--footer{
         gap: 0 20px;
     }
 }
